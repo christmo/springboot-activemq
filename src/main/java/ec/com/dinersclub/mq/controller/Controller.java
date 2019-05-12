@@ -1,14 +1,12 @@
 package ec.com.dinersclub.mq.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.jms.core.JmsTemplate;
-import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Controller {
 
-    @Autowired
+    //@Autowired
     private ApplicationContext context;
 
     public Controller(ApplicationContext context) {
